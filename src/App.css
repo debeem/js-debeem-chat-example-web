@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+button
+{
+  font-size: 10px;
+  height: 20px;
+}
+input
+{
+  font-size: 10px;
+  height: 16px;
+  padding: 0 4px;
+}
+
+.App-header
+{
+  width: 100%;
+  height: 26px;
+  background-color: darkblue;
+  text-align: left;
+  padding-top: 3px;
+  padding-left: 6px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 800;
+  box-sizing: border-box;
+}
+.App-header .serverDiv
+{
+  float: left;
+  width: 160px;
+}
+.App-header .userDiv
+{
+  float: left;
+  width: 200px;
+}
+
+
+.App-body
+{
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+  height: 100vh;
+}
+.App-body .RoomColumn
+{
+  width: 140px;
+  background-color: deepskyblue;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.sticky-bottom {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+}
+
+.App-body .ChatColumn
+{
+  flex-grow: 1;
+  overflow-y: auto;
+  position: relative;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

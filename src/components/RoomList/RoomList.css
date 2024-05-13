@@ -1,0 +1,94 @@
+.RoomListDiv
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.RoomListDiv .titleBar
+{
+	text-align: left;
+	width: 100%;
+	height: 24px;
+	background-color: deepskyblue;
+	padding: 6px;
+	margin: 0;
+	box-sizing: border-box;
+	font-weight: 800;
+	font-size: 11px;
+}
+.RoomListDiv .panel
+{
+	height: 50px;
+	background-color: paleturquoise;
+	padding: 6px;
+	margin: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 11px;
+	text-align: center;
+}
+.RoomListDiv .listContainer
+{
+	min-height: calc( 100vh - 50px );
+	background-color: paleturquoise;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 11px;
+}
+.RoomListDiv .listContainer .roomItem
+{
+	background-color: paleturquoise;
+	border-bottom: 1px solid #3498db;
+	padding: 6px;
+	width: 100%;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.RoomListDiv .listContainer .roomItem.selected
+{
+	background-color: #61dafb;
+}
+.RoomListDiv .listContainer .roomInfoBox
+{
+
+}
+.RoomListDiv .listContainer .roomInfoBox .roomName
+{
+	font-size: 10px;
+	font-weight: 800;
+}
+.RoomListDiv .listContainer .roomInfoBox .roomId
+{
+	font-size: 9px;
+	width: 100%;
+	/*white-space: nowrap;*/
+	/*overflow: hidden;*/
+	/*text-overflow: ellipsis;*/
+	word-wrap:break-word;
+}
+.RoomListDiv .listContainer .roomInfoBox .roomCreatedTime
+{
+	font-size: 8px;
+}
+
+.RoomListDiv .listContainer .roomUnread
+{
+	font-style: italic;
+	color: brown;
+}
+
+.RoomListDiv .listContainer .roomOptBox
+{
+	font-size: 9px;
+	height: 11px;
+	padding-top: 3px;
+}
+.RoomListDiv .listContainer .roomOptBox a
+{
+	font-size: 9px;
+	color: blue;
+	cursor: pointer;
+}
